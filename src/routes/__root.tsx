@@ -29,14 +29,18 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Cycle Companion" },
+      { name: "description", content: "A full-stack period tracking and wellness application built with React, focusing on health insights and system architecture documentation." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Cycle Companion" },
+      { property: "og:description", content: "A full-stack period tracking and wellness application built with React, focusing on health insights and system architecture documentation." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Cycle Companion" },
+      { name: "twitter:description", content: "A full-stack period tracking and wellness application built with React, focusing on health insights and system architecture documentation." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/ca42edcc-fdb3-47a0-8059-ff23e32e64a8" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/ca42edcc-fdb3-47a0-8059-ff23e32e64a8" },
     ],
     links: [
       {
